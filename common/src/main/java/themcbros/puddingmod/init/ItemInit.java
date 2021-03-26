@@ -11,8 +11,6 @@ import static themcbros.puddingmod.PuddingMod.*;
 public class ItemInit {
 
     public static final DeferredRegister<Item> ITEMS = DeferredRegister.create(MOD_ID, Registry.ITEM_REGISTRY);
-    public static final RegistrySupplier<Item> MIXED_ITEM = ITEMS.register("mixed_item", () ->
-            new Item(new Item.Properties().tab(PUDDING_TAB)));
     public static final RegistrySupplier<Item> PUDDING_ITEM = ITEMS.register("pudding", () ->
             new BowlFoodItem(new Item.Properties().tab(PUDDING_TAB).food(Foods.BEETROOT_SOUP).stacksTo(1)));
 
