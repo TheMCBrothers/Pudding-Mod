@@ -1,22 +1,23 @@
 {
   "schemaVersion": 1,
-  "id": "examplemod",
+  "id": "puddingmod",
   "version": "${version}",
-  "name": "Example Mod",
-  "description": "This is an example description! Tell everyone what your mod is about!",
+  "name": "Pudding Mod",
+  "description": "Pudding in Minecraft!",
   "authors": [
-    "Me!"
+    "TheMCLoveMan"
   ],
   "contact": {
     "homepage": "https://fabricmc.net/",
-    "sources": "https://github.com/FabricMC/fabric-example-mod"
+    "sources": "https://github.com/TheMCBrothers/Pudding-Mod",
+    "issues": "https://github.com/TheMCBrothers/Pudding-Mod/issues"
   },
-  "license": "Insert License Here",
+  "license": "MIT License",
   "icon": "assets/examplemod/icon.png",
   "environment": "*",
   "entrypoints": {
     "main": [
-      "net.examplemod.fabric.ExampleModFabric"
+      "themcbros.puddingmod.fabric.PuddingModFabric"
     ]
   },
   "depends": {

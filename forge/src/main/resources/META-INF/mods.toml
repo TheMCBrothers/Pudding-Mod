@@ -1,33 +1,33 @@
 modLoader = "javafml"
 loaderVersion = "[35,)"
-#issueTrackerURL = ""
-license = "Insert License Here"
+issueTrackerURL = "https://github.com/TheMCBrothers/Pudding-Mod/issues"
+license = "MIT License"
 
 [[mods]]
-modId = "examplemod"
+modId = "puddingmod"
 version = "${version}"
-displayName = "Example Mod"
-authors = "Me!"
+displayName = "Pudding Mod"
+authors = "TheMCLoveMan"
 description = '''
-This is an example description! Tell everyone what your mod is about!
+Pudding in Minecraft!
 '''
 #logoFile = ""
 
-[[dependencies.examplemod]]
+[[dependencies.puddingmod]]
 modId = "forge"
 mandatory = true
 versionRange = "[35,)"
 ordering = "NONE"
 side = "BOTH"
 
-[[dependencies.examplemod]]
+[[dependencies.puddingmod]]
 modId = "minecraft"
 mandatory = true
 versionRange = "[1.16.2,)"
 ordering = "NONE"
 side = "BOTH"
 
-[[dependencies.examplemod]]
+[[dependencies.puddingmod]]
 modId = "architectury"
 mandatory = true
 versionRange = "[1.1.55,)"
