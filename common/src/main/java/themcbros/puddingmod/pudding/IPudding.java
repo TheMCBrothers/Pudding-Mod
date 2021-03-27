@@ -3,6 +3,7 @@ package themcbros.puddingmod.pudding;
 import net.minecraft.world.food.FoodProperties;
 import net.minecraft.world.item.BowlFoodItem;
 import net.minecraft.world.item.Item;
+import net.minecraft.world.item.Items;
 import themcbros.puddingmod.PuddingMod;
 
 public interface IPudding {
@@ -45,7 +46,7 @@ public interface IPudding {
                 .nutrition(pudding.getNutrition())
                 .saturationMod(pudding.getSaturationModifier())
                 .build();
-        return new BowlFoodItem(new Item.Properties().food(foodProperties).stacksTo(1).tab(PuddingMod.PUDDING_TAB));
+        return new BowlFoodItem(new Item.Properties().food(foodProperties).craftRemainder(Items.BOWL).stacksTo(16).tab(PuddingMod.PUDDING_TAB));
     }
 
 }

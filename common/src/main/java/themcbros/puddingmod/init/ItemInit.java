@@ -14,7 +14,7 @@ public class ItemInit {
 
     public static final DeferredRegister<Item> ITEMS = DeferredRegister.create(MOD_ID, Registry.ITEM_REGISTRY);
     public static final RegistrySupplier<Item> PUDDING_ITEM = ITEMS.register("pudding", () ->
-            new BowlFoodItem(new Item.Properties().tab(PUDDING_TAB).food(Foods.BEETROOT_SOUP).stacksTo(1)));
+            new BowlFoodItem(new Item.Properties().tab(PUDDING_TAB).food(Foods.BEETROOT_SOUP).stacksTo(16).craftRemainder(Items.BOWL)));
     public static final RegistrySupplier<BowlFoodItem> VANILLA_PUDDING = registerPudding(PuddingSorts.VANILLA);
     public static final RegistrySupplier<BowlFoodItem> CHOCOLATE_PUDDING = registerPudding(PuddingSorts.CHOCOLATE);
 
