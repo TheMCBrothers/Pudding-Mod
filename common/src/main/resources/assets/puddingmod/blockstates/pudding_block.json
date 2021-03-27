@@ -1,7 +1,7 @@
 {
     "variants": {
         "": {
-            "model": "minecraft:block/slime_block"
+            "model": "puddingmod:block/pudding_block"
         }
     }
 }
