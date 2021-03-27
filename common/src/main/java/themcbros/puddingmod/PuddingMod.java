@@ -16,6 +16,5 @@ public class PuddingMod {
     public static void init() {
         BlockInit.BLOCKS.register();
         ItemInit.ITEMS.register();
-        FluidInit.register();
     }
 }
