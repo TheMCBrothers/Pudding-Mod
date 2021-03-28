@@ -27,7 +27,7 @@ public class PuddingModFabricClient implements ClientModInitializer {
     @Override
     public void onInitializeClient() {
         setupFluidRendering(FabricFluidInit.STILL_PUDDING, FabricFluidInit.FLOWING_PUDDING,
-                new ResourceLocation(PuddingMod.MOD_ID, "pudding"), 0xFFBF00);
+                new ResourceLocation(PuddingMod.MOD_ID, "pudding"), -1);
         BlockRenderLayerMap.INSTANCE.putFluids(RenderType.translucent(), FabricFluidInit.STILL_PUDDING, FabricFluidInit.FLOWING_PUDDING);
     }
 

@@ -33,7 +33,7 @@ public class ForgeFluidInit {
             FluidAttributes.builder(
                     new ResourceLocation(PuddingMod.MOD_ID, "block/pudding_still"),
                     new ResourceLocation(PuddingMod.MOD_ID, "block/pudding_flow"))
-                    .color(0xFFBF00).translationKey("block.puddingmod.pudding"))
+                    .translationKey("block.puddingmod.pudding"))
             .bucket(ForgeFluidInit.PUDDING_BUCKET).block(ForgeFluidInit.PUDDING_LIQUID).explosionResistance(100.0F).slopeFindDistance(2)
             .levelDecreasePerBlock(2).tickRate(20);
 
