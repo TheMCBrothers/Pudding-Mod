@@ -1,0 +1,54 @@
+{
+    "parent": "minecraft:recipes/root",
+    "rewards": {
+        "recipes": [
+            "puddingmod:chocolate_pudding_from_pudding"
+        ]
+    },
+    "criteria": {
+        "has_chocolate_pudding": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                        "item": "puddingmod:chocolate_pudding"
+                    }
+                ]
+            }
+        },
+        "has_pudding": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                        "item": "puddingmod:pudding"
+                    }
+                ]
+            }
+        },
+        "has_chocolate_ingredient": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                        "tag": "puddingmod:chocolate_ingredients"
+                    }
+                ]
+            }
+        },
+        "has_the_recipe": {
+            "trigger": "minecraft:recipe_unlocked",
+            "conditions": {
+                "recipe": "puddingmod:chocolate_pudding_from_pudding"
+            }
+        }
+    },
+    "requirements": [
+        [
+            "has_chocolate_pudding",
+            "has_pudding",
+            "has_chocolate_ingredient",
+            "has_the_recipe"
+        ]
+    ]
+}

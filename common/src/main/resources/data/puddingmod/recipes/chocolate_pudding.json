@@ -1,0 +1,27 @@
+{
+    "type": "minecraft:crafting_shapeless",
+    "group": "puddingmod:chocolate_pudding",
+    "ingredients": [
+        {
+            "item": "minecraft:bowl"
+        },
+        {
+            "item": "minecraft:milk_bucket"
+        },
+        {
+            "item": "minecraft:sugar"
+        },
+        {
+            "item": "minecraft:slime_ball"
+        },
+        {
+            "tag": "puddingmod:chocolate_ingredients"
+        },
+        {
+            "tag": "puddingmod:chocolate_ingredients"
+        }
+    ],
+    "result": {
+        "item": "puddingmod:chocolate_pudding"
+    }
+}

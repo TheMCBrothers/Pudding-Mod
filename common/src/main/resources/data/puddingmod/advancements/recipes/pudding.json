@@ -1,0 +1,65 @@
+{
+    "parent": "minecraft:recipes/root",
+    "rewards": {
+        "recipes": [
+            "puddingmod:pudding"
+        ]
+    },
+    "criteria": {
+        "has_pudding": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                        "item": "puddingmod:pudding"
+                    }
+                ]
+            }
+        },
+        "has_bowl": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                        "item": "minecraft:bowl"
+                    }
+                ]
+            }
+        },
+        "has_milk_bucket": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                        "item": "minecraft:milk_bucket"
+                    }
+                ]
+            }
+        },
+        "has_sugar": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                        "item": "minecraft:sugar"
+                    }
+                ]
+            }
+        },
+        "has_the_recipe": {
+            "trigger": "minecraft:recipe_unlocked",
+            "conditions": {
+                "recipe": "puddingmod:pudding"
+            }
+        }
+    },
+    "requirements": [
+        [
+            "has_pudding",
+            "has_bowl",
+            "has_milk_bucket",
+            "has_sugar",
+            "has_the_recipe"
+        ]
+    ]
+}
