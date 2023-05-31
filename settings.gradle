@@ -11,4 +11,4 @@ include("common")
 include("fabric")
 include("forge")
 
-rootProject.name = "pudding-mod"
+rootProject.name = "Pudding-Mod"
