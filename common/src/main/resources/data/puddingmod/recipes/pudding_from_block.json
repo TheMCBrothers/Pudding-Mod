@@ -1,25 +1,25 @@
 {
-    "type": "minecraft:crafting_shapeless",
-    "group": "puddingmod:pudding",
-    "ingredients": [
-        {
-            "item": "puddingmod:pudding_block"
-        },
-        {
-            "item": "minecraft:bowl"
-        },
-        {
-            "item": "minecraft:bowl"
-        },
-        {
-            "item": "minecraft:bowl"
-        },
-        {
-            "item": "minecraft:bowl"
-        }
-    ],
-    "result": {
-        "item": "puddingmod:pudding",
-        "count": 4
+  "type": "minecraft:crafting_shapeless",
+  "group": "puddingmod:pudding",
+  "ingredients": [
+    {
+      "item": "puddingmod:pudding_block"
+    },
+    {
+      "item": "minecraft:bowl"
+    },
+    {
+      "item": "minecraft:bowl"
+    },
+    {
+      "item": "minecraft:bowl"
+    },
+    {
+      "item": "minecraft:bowl"
     }
+  ],
+  "result": {
+    "item": "puddingmod:pudding",
+    "count": 4
+  }
 }

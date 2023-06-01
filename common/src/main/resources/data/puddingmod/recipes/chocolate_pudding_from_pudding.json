@@ -1,18 +1,18 @@
 {
-    "type": "minecraft:crafting_shapeless",
-    "group": "puddingmod:chocolate_pudding",
-    "ingredients": [
-        {
-            "item": "puddingmod:pudding"
-        },
-        {
-            "tag": "puddingmod:chocolate_ingredients"
-        },
-        {
-            "tag": "puddingmod:chocolate_ingredients"
-        }
-    ],
-    "result": {
-        "item": "puddingmod:chocolate_pudding"
+  "type": "minecraft:crafting_shapeless",
+  "group": "puddingmod:chocolate_pudding",
+  "ingredients": [
+    {
+      "item": "puddingmod:pudding"
+    },
+    {
+      "tag": "puddingmod:chocolate_ingredients"
+    },
+    {
+      "tag": "puddingmod:chocolate_ingredients"
     }
+  ],
+  "result": {
+    "item": "puddingmod:chocolate_pudding"
+  }
 }

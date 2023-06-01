@@ -1,7 +1,7 @@
 {
-    "variants": {
-        "": {
-            "model": "puddingmod:block/pudding_block"
-        }
+  "variants": {
+    "": {
+      "model": "puddingmod:block/pudding_block"
     }
+  }
 }

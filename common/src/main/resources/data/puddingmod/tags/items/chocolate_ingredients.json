@@ -1,8 +1,14 @@
 {
-    "replace": false,
-    "values": [
-        "minecraft:cocoa_beans",
-        { "id": "#forge:chocolatebar", "required": false },
-        { "id": "#forge:cocoapowder", "required": false }
-    ]
+  "replace": false,
+  "values": [
+    "minecraft:cocoa_beans",
+    {
+      "id": "#forge:chocolatebar",
+      "required": false
+    },
+    {
+      "id": "#forge:cocoapowder",
+      "required": false
+    }
+  ]
 }

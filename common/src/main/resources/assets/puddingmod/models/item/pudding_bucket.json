@@ -1,6 +1,6 @@
 {
-    "parent": "minecraft:item/generated",
-    "textures": {
-        "layer0": "puddingmod:item/pudding_bucket"
-    }
+  "parent": "minecraft:item/generated",
+  "textures": {
+    "layer0": "puddingmod:item/pudding_bucket"
+  }
 }

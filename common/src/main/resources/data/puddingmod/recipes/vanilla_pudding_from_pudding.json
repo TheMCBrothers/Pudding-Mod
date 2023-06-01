@@ -1,18 +1,18 @@
 {
-    "type": "minecraft:crafting_shapeless",
-    "group": "puddingmod:vanilla_pudding",
-    "ingredients": [
-        {
-            "item": "puddingmod:pudding"
-        },
-        {
-            "tag": "puddingmod:vanilla_ingredients"
-        },
-        {
-            "tag": "puddingmod:vanilla_ingredients"
-        }
-    ],
-    "result": {
-        "item": "puddingmod:vanilla_pudding"
+  "type": "minecraft:crafting_shapeless",
+  "group": "puddingmod:vanilla_pudding",
+  "ingredients": [
+    {
+      "item": "puddingmod:pudding"
+    },
+    {
+      "tag": "puddingmod:vanilla_ingredients"
+    },
+    {
+      "tag": "puddingmod:vanilla_ingredients"
     }
+  ],
+  "result": {
+    "item": "puddingmod:vanilla_pudding"
+  }
 }

@@ -1,43 +1,43 @@
 {
-    "parent": "minecraft:recipes/root",
-    "rewards": {
-        "recipes": [
-            "puddingmod:pudding_block"
-        ]
-    },
-    "criteria": {
-        "has_pudding_block": {
-            "trigger": "minecraft:inventory_changed",
-            "conditions": {
-                "items": [
-                    {
-                        "item": "puddingmod:pudding_block"
-                    }
-                ]
-            }
-        },
-        "has_pudding": {
-            "trigger": "minecraft:inventory_changed",
-            "conditions": {
-                "items": [
-                    {
-                        "item": "puddingmod:pudding"
-                    }
-                ]
-            }
-        },
-        "has_the_recipe": {
-            "trigger": "minecraft:recipe_unlocked",
-            "conditions": {
-                "recipe": "puddingmod:pudding_block"
-            }
-        }
-    },
-    "requirements": [
-        [
-            "has_pudding_block",
-            "has_pudding",
-            "has_the_recipe"
-        ]
+  "parent": "minecraft:recipes/root",
+  "rewards": {
+    "recipes": [
+      "puddingmod:pudding_block"
     ]
+  },
+  "criteria": {
+    "has_pudding_block": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "item": "puddingmod:pudding_block"
+          }
+        ]
+      }
+    },
+    "has_pudding": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "item": "puddingmod:pudding"
+          }
+        ]
+      }
+    },
+    "has_the_recipe": {
+      "trigger": "minecraft:recipe_unlocked",
+      "conditions": {
+        "recipe": "puddingmod:pudding_block"
+      }
+    }
+  },
+  "requirements": [
+    [
+      "has_pudding_block",
+      "has_pudding",
+      "has_the_recipe"
+    ]
+  ]
 }
