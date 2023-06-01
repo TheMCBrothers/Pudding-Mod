@@ -1,5 +1,5 @@
 modLoader = "javafml"
-loaderVersion = "[35,)"
+loaderVersion = "[45,)"
 issueTrackerURL = "https://github.com/TheMCBrothers/Pudding-Mod/issues"
 license = "MIT License"
 
@@ -7,6 +7,7 @@ license = "MIT License"
 modId = "puddingmod"
 version = "${version}"
 displayName = "Pudding Mod"
+displayURL = "https://themcbrothers.net/mods/puddingmod"
 authors = "TheMCLoveMan"
 description = '''
 Pudding in Minecraft!
@@ -16,20 +17,20 @@ Pudding in Minecraft!
 [[dependencies.puddingmod]]
 modId = "forge"
 mandatory = true
-versionRange = "[35,)"
+versionRange = "[45,)"
 ordering = "NONE"
 side = "BOTH"
 
 [[dependencies.puddingmod]]
 modId = "minecraft"
 mandatory = true
-versionRange = "[1.16.2,)"
+versionRange = "[1.19.4,)"
 ordering = "NONE"
 side = "BOTH"
 
 [[dependencies.puddingmod]]
 modId = "architectury"
 mandatory = true
-versionRange = "[1.1.55,)"
+versionRange = "[8.1.79,)"
 ordering = "AFTER"
 side = "BOTH"

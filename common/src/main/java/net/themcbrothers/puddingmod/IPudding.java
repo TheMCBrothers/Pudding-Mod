@@ -1,13 +1,14 @@
-package themcbros.puddingmod.pudding;
+package net.themcbrothers.puddingmod;
 
 import net.minecraft.world.food.FoodProperties;
 import net.minecraft.world.item.BowlFoodItem;
 import net.minecraft.world.item.Item;
 import net.minecraft.world.item.Items;
-import themcbros.puddingmod.PuddingMod;
 
+/**
+ * @author TheMCLoveMan
+ */
 public interface IPudding {
-
     /**
      * @return Name of pudding sort
      */
@@ -15,6 +16,7 @@ public interface IPudding {
 
     /**
      * This is used for {@link net.minecraft.client.color.item.ItemColors}
+     *
      * @return Color of the pudding
      */
     default int getColor() {
@@ -23,6 +25,7 @@ public interface IPudding {
 
     /**
      * Used for {@link FoodProperties} creation
+     *
      * @return Nutrition (default 6)
      */
     default int getNutrition() {
@@ -31,6 +34,7 @@ public interface IPudding {
 
     /**
      * Used for {@link FoodProperties} creation
+     *
      * @return Food saturation as float (default 0.6F)
      */
     default float getSaturationModifier() {
@@ -46,7 +50,6 @@ public interface IPudding {
                 .nutrition(pudding.getNutrition())
                 .saturationMod(pudding.getSaturationModifier())
                 .build();
-        return new BowlFoodItem(new Item.Properties().food(foodProperties).craftRemainder(Items.BOWL).stacksTo(16).tab(PuddingMod.PUDDING_TAB));
+        return new BowlFoodItem(new Item.Properties().food(foodProperties).craftRemainder(Items.BOWL).stacksTo(16).arch$tab(PuddingMod.PUDDING_TAB));
     }
-
 }

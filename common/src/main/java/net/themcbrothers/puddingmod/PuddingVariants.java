@@ -1,8 +1,9 @@
-package themcbros.puddingmod.pudding;
+package net.themcbrothers.puddingmod;
 
-public class PuddingSorts {
-
+/**
+ * @author TheMCLoveMan
+ */
+public class PuddingVariants {
     public static final IPudding VANILLA = () -> "vanilla";
     public static final IPudding CHOCOLATE = () -> "chocolate";
-
 }

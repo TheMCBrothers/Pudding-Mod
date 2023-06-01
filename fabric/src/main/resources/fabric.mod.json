@@ -8,29 +8,22 @@
     "TheMCLoveMan"
   ],
   "contact": {
-    "homepage": "https://www.curseforge.com/minecraft/mc-mods/pudding-mod-fabric",
+    "homepage": "https://themcbrothers.net/mods/puddingmod",
     "sources": "https://github.com/TheMCBrothers/Pudding-Mod",
-    "issues": "https://github.com/TheMCBrothers/Pudding-Mod/issues"
+    "issues": "https://github.com/TheMCBrothers/Pudding-Mod/issues",
+    "email": "info@themcbrothers.net"
   },
   "license": "MIT License",
-  "icon": "assets/examplemod/icon.png",
+  "icon": "assets/puddingmod/icon.png",
   "environment": "*",
   "entrypoints": {
     "main": [
-      "themcbros.puddingmod.fabric.PuddingModFabric",
-      "themcbros.puddingmod.fabric.FabricFluidInit"
-    ],
-    "client": [
-      "themcbros.puddingmod.fabric.PuddingModFabricClient"
+      "net.themcbrothers.puddingmod.fabric.PuddingModFabric"
     ]
   },
   "depends": {
-    "fabricloader": ">=0.7.4",
     "fabric": "*",
-    "minecraft": ">=1.16.4",
-    "architectury": ">=1.1.55"
-  },
-  "suggests": {
-    "uselessmod": "*"
+    "minecraft": ">=1.19.4",
+    "architectury": ">=8.1.79"
   }
 }
