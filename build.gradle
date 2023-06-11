@@ -28,9 +28,12 @@ allprojects {
     apply plugin: "architectury-plugin"
     apply plugin: "maven-publish"
 
-    archivesBaseName = rootProject.archives_base_name
     version = rootProject.mod_version
     group = rootProject.maven_group
+
+    base {
+        archivesName = rootProject.archives_base_name
+    }
 
     repositories {
         // Add repositories to retrieve artifacts from in here.
