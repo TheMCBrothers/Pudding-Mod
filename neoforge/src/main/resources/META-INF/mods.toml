@@ -1,0 +1,36 @@
+modLoader = "javafml"
+loaderVersion = "[1,)"
+issueTrackerURL = "https://github.com/TheMCBrothers/Pudding-Mod/issues"
+license = "MIT License"
+
+[[mods]]
+modId = "puddingmod"
+version = "${version}"
+displayName = "Pudding Mod"
+displayURL = "https://themcbrothers.net/mods/puddingmod"
+authors = "TheMCLoveMan"
+description = '''
+Pudding in Minecraft!
+'''
+#logoFile = ""
+
+[[dependencies.puddingmod]]
+modId = "neoforge"
+mandatory = true
+versionRange = "[20.2,)"
+ordering = "NONE"
+side = "BOTH"
+
+[[dependencies.puddingmod]]
+modId = "minecraft"
+mandatory = true
+versionRange = "[1.20.2,)"
+ordering = "NONE"
+side = "BOTH"
+
+[[dependencies.puddingmod]]
+modId = "architectury"
+mandatory = true
+versionRange = "[10,)"
+ordering = "AFTER"
+side = "BOTH"
