@@ -1,6 +1,6 @@
 {
   "type": "minecraft:crafting_shapeless",
-  "group": "puddingmod:pudding",
+  "category": "misc",
   "ingredients": [
     {
       "item": "puddingmod:pudding_block"
