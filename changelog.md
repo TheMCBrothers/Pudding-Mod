@@ -1,3 +1,7 @@
+# 5.1.0
+- Updated to 1.20.2
+- Added support for NeoForge
+
 # 5.0.0
 - Updated to 1.20
 
