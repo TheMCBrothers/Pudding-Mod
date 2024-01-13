@@ -8,13 +8,13 @@
     "TheMCLoveMan"
   ],
   "contact": {
-    "homepage": "https://themcbrothers.net/mods/puddingmod",
+    "homepage": "https://themcbrothers.net/mods",
     "sources": "https://github.com/TheMCBrothers/Pudding-Mod",
     "issues": "https://github.com/TheMCBrothers/Pudding-Mod/issues",
     "email": "info@themcbrothers.net"
   },
   "license": "MIT License",
-  "icon": "assets/puddingmod/icon.png",
+  "icon": "pack.png",
   "environment": "*",
   "entrypoints": {
     "main": [
@@ -22,8 +22,8 @@
     ]
   },
   "depends": {
-    "fabric": "*",
-    "minecraft": ">=1.20",
-    "architectury": ">=9.0.7"
+    "fabric-api": "*",
+    "minecraft": ">=1.20.2",
+    "architectury": ">=10"
   }
 }

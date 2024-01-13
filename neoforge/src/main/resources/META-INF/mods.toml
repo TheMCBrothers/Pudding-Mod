@@ -7,12 +7,12 @@ license = "MIT License"
 modId = "puddingmod"
 version = "${version}"
 displayName = "Pudding Mod"
-displayURL = "https://themcbrothers.net/mods/puddingmod"
+displayURL = "https://themcbrothers.net/mods"
 authors = "TheMCLoveMan"
 description = '''
 Pudding in Minecraft!
 '''
-#logoFile = ""
+logoFile = "pack.png"
 
 [[dependencies.puddingmod]]
 modId = "neoforge"
