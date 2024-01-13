@@ -1,5 +1,5 @@
 modLoader = "javafml"
-loaderVersion = "[1,)"
+loaderVersion = "[2,)"
 issueTrackerURL = "https://github.com/TheMCBrothers/Pudding-Mod/issues"
 license = "MIT License"
 
@@ -16,21 +16,21 @@ logoFile = "pack.png"
 
 [[dependencies.puddingmod]]
 modId = "neoforge"
-mandatory = true
-versionRange = "[20.2,)"
+type = "required"
+versionRange = "[20.4,)"
 ordering = "NONE"
 side = "BOTH"
 
 [[dependencies.puddingmod]]
 modId = "minecraft"
-mandatory = true
-versionRange = "[1.20.2,)"
+type = "required"
+versionRange = "[1.20.4,)"
 ordering = "NONE"
 side = "BOTH"
 
 [[dependencies.puddingmod]]
 modId = "architectury"
-mandatory = true
-versionRange = "[10,)"
+type = "required"
+versionRange = "[11,)"
 ordering = "AFTER"
 side = "BOTH"

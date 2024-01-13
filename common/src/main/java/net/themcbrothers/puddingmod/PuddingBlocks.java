@@ -16,9 +16,9 @@ public class PuddingBlocks {
     public static final DeferredRegister<Block> REGISTER = DeferredRegister.create(PuddingMod.MOD_ID, Registries.BLOCK);
 
     public static final RegistrySupplier<LiquidBlock> PUDDING = REGISTER.register("pudding", () ->
-            new LiquidBlock(PuddingFluids.PUDDING.get(), BlockBehaviour.Properties.copy(Blocks.WATER)));
+            new LiquidBlock(PuddingFluids.PUDDING.get(), BlockBehaviour.Properties.ofFullCopy(Blocks.WATER)));
     public static final RegistrySupplier<Block> PUDDING_BLOCK = REGISTER.register("pudding_block", () ->
-            new SlimeBlock(BlockBehaviour.Properties.copy(Blocks.SLIME_BLOCK)));
+            new SlimeBlock(BlockBehaviour.Properties.ofFullCopy(Blocks.SLIME_BLOCK)));
 
     static void register() {
         REGISTER.register();
