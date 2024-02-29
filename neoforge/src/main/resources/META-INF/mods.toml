@@ -13,6 +13,7 @@ description = '''
 Pudding in Minecraft!
 '''
 logoFile = "pack.png"
+logoBlur = false
 
 [[dependencies.puddingmod]]
 modId = "neoforge"
@@ -31,6 +32,6 @@ side = "BOTH"
 [[dependencies.puddingmod]]
 modId = "architectury"
 type = "required"
-versionRange = "[11,)"
+versionRange = "[11.1,)"
 ordering = "AFTER"
 side = "BOTH"
