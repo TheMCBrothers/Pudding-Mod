@@ -1,5 +1,6 @@
 package net.themcbrothers.puddingmod;
 
+import dev.architectury.core.block.ArchitecturyLiquidBlock;
 import dev.architectury.registry.registries.DeferredRegister;
 import dev.architectury.registry.registries.RegistrySupplier;
 import net.minecraft.core.registries.Registries;
@@ -16,7 +17,7 @@ public class PuddingBlocks {
     public static final DeferredRegister<Block> REGISTER = DeferredRegister.create(PuddingMod.MOD_ID, Registries.BLOCK);
 
     public static final RegistrySupplier<LiquidBlock> PUDDING = REGISTER.register("pudding", () ->
-            new LiquidBlock(PuddingFluids.PUDDING.get(), BlockBehaviour.Properties.ofFullCopy(Blocks.WATER)));
+            new ArchitecturyLiquidBlock(PuddingFluids.PUDDING, BlockBehaviour.Properties.ofFullCopy(Blocks.WATER)));
     public static final RegistrySupplier<Block> PUDDING_BLOCK = REGISTER.register("pudding_block", () ->
             new SlimeBlock(BlockBehaviour.Properties.ofFullCopy(Blocks.SLIME_BLOCK)));
 
