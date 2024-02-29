@@ -1,15 +1,15 @@
-# 5.2.0
+## 5.2.1
+- Fix Pudding fluid not being translated
+- Fix capabilities for Pudding Bucket
+- Removed the blur effect from the Logo on Forge & NeoForge
+
+## 5.2.0
 - Updated to 1.20.4
 
-# 5.1.0
+## 5.1.0
 - Updated to 1.20.2
 - Added support for NeoForge
 
-# 5.0.0
+## 5.0.0
 - Updated to 1.20
 
-# 4.0.0
-- Updated to 1.19.4
-
-# 3.0.1
-- Latest release for 1.16.5
